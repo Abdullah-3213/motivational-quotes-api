@@ -1,12 +1,12 @@
 {
   "name": "motivational-quotes-api",
   "version": "1.0.0",
-  "description": "A simple API that serves random motivational quotes.",
-  "main": "api/quote.js",
+  "type": "module",
+  "main": "quote.js",
   "scripts": {
     "start": "vercel dev"
   },
-  "keywords": ["vercel", "api", "quotes", "motivation"],
+  "keywords": ["vercel", "serverless", "quotes"],
   "author": "Abdullah Yasin",
   "license": "MIT"
 }
