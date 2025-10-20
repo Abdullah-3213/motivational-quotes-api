@@ -1,17 +1,12 @@
 {
   "name": "motivational-quotes-api",
   "version": "1.0.0",
-  "description": "A simple Express API that serves random motivational quotes.",
-  "main": "server.js",
-  "type": "module",
+  "description": "A simple API that serves random motivational quotes.",
+  "main": "api/quote.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "vercel dev"
   },
-  "keywords": ["express", "api", "quotes", "motivation"],
+  "keywords": ["vercel", "api", "quotes", "motivation"],
   "author": "Abdullah Yasin",
-  "license": "MIT",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^5.1.0"
-  }
+  "license": "MIT"
 }
